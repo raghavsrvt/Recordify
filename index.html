@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordify | Record your screen happily 😊</title>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/45a669512e.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+    <script src="./js/header.js" defer></script>
+</head>
+
+<body>
+    <!-- Desktop Header -->
+    <header>
+        <a href="https://raghavsrvt.ml/" class="logo">Raghav Srvt</a>
+        <nav class="nav-bar">
+            <a href="https://github.com/raghavsrvt" target="_blank" class="nav-link social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </nav>
+    </header>
+
+    <!-- Mobile Header -->
+    <nav id="resp-nav-container">
+        <a href="https://raghavsrvt.github.io/" class="logo" title = "Raghav Srvt">Raghav Srvt</a>
+        <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <div id="resp-nav">
+            <hr class="nav-hr">
+            <a href="https://github.com/raghavsrvt" target="_blank" class="nav-link social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </nav>
+    
+    <!-- Main App -->
+    <main>
+        <iframe id="video-src" frameborder="0"></iframe>
+        <div class="controls-div">
+            <div id="btn-div">
+                <button id="start-stop" class="icon"><iconify-icon icon="ph:record-duotone" class="icon-i"></iconify-icon></button>
+                <button id="mic" class="icon color-primary"><iconify-icon icon="ph:microphone-duotone" class="icon-i"></iconify-icon></button>
+            </div>
+            <div class="timer">
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="mins">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
+        </div>
+
+        <div class="input-div">
+            <h3>Enter file 📁 name...</h3>
+            <input type="text" id="fileNameEl">
+            <div>
+                <button id="save-file" class="btn">Save File</button>
+                <button id="cancel" class="btn">Cancel</button>
+            </div>
+        </div>
+        <div class="message-div"></div>
+        <div class="fixedLayer"></div>
+    </main>
+
+     <!-- Footer -->
+     <footer>
+        <p><a href="https://raghavsrvt.github.io/" target="_blank" class="footer-logo">© Raghav Srvt.</a><span> All rights reserved.</span></p>
+        <p>Designed by Raghav Srivastava.</p>
+    </footer>
+</body>
+
+</html>

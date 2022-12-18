@@ -1,0 +1,37 @@
+details{
+    width: 600px;
+}
+
+summary{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.summary-h3{
+    display: inline;
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* background-color: var(--primary-bg-color);
+    color: var(--primary);
+    text-decoration: underline 2px var(--primary);
+    text-underline-offset: 6px; */
+}
+
+.icon-htu{
+    font-size: 1.5rem;
+}
+
+details p{
+    display: flex;
+}
+
+.icon-sub-heading{
+    font-weight: 600;
+}
+
+.details-div{
+    margin-top: 16px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
